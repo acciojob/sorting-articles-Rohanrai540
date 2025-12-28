@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px 30px;
+}
+
+#band {
+  list-style-type: square;
+  padding-left: 20px;
+  margin: 0;
+}
+
+#band li {
+  padding: 18px 0;
+  font-size: 22px;
+  border-bottom: 1px solid #eee;
+}
+
+#band li:last-child {
+  border-bottom: none;
+}
